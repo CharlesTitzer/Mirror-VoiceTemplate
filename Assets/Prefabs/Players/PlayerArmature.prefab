@@ -2506,7 +2506,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0
   clientAuthority: 1
-  animator: {fileID: 4425103906355383936}
+  animator: {fileID: 4425103906355383936, guid: c50281f231558b24f979f14f5d9a07f2, type: 3}
 --- !u!114 &-2238326604326028607
 MonoBehaviour:
   m_ObjectHideFlags: 0
