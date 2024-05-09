@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 2847855502343648773}
   - component: {fileID: -2238326604326028607}
   m_Layer: 8
-  m_Name: Carl Audio Test
+  m_Name: Carl
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
