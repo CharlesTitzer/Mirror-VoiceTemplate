@@ -34,13 +34,7 @@ public class InventoryManager : MonoBehaviour
 
     public void ListItems()
     {
-        //Clean content before open.
-        foreach(Transform item in ItemContent)
-        {
-            Destroy(item.gameObject);
-            print("Destroyed objects");
-        }
-        
+
         foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
@@ -65,7 +59,7 @@ public class InventoryManager : MonoBehaviour
     }
 
     public void EnableItemsSell()
-    { 
+    {
         if (EnableSell.isOn)
         {
             foreach (Transform item in ItemContent)
@@ -86,11 +80,20 @@ public class InventoryManager : MonoBehaviour
     {
         InventoryItems = ItemContent.GetComponentsInChildren<InventoryItemController>();
 
-        for(int i = 0; i < Items.Count; i++)
+        for (int i = 0; i < Items.Count; i++)
         {
             InventoryItems[i].AddItem(Items[i]);
             print("ITem added");
         }
     }
 
+    public void CleanContent()
+    {
+        //Clean content before open.
+        foreach (Transform item in ItemContent)
+        {
+            Destroy(item.gameObject);
+            print("Destroyed objects");
+        }
+    }
 }

@@ -1976,7 +1976,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1364348998528292049, guid: 05efe3d276e320f4dad3f88049ed299e, type: 3}
       propertyPath: m_Name
-      value: SHOP-HP (1)
+      value: SHOP-HP
       objectReference: {fileID: 0}
     - target: {fileID: 1847870594436042347, guid: 05efe3d276e320f4dad3f88049ed299e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2801,75 +2801,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dd8907edc7399e4dbbc5b32c774ebe8, type: 3}
---- !u!1001 &1508078885
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -609.05206
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 536.5579
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.95006
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5896641313487977685, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6529872722429191791, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
-      propertyPath: m_Name
-      value: Flintlock Pistol
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: df2792612c21fe94aa06b8017fa7fb78, type: 3}
 --- !u!114 &1523631217 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8234345664783337224, guid: 4dd50470512f2bd468a41222fa42a360, type: 3}
@@ -3605,6 +3536,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1523631217}
+        m_TargetAssemblyTypeName: InventoryManager, Assembly-CSharp
+        m_MethodName: CleanContent
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5321,13 +5264,12 @@ SceneRoots:
   - {fileID: 87227933}
   - {fileID: 8345070700268369567}
   - {fileID: 859519803}
-  - {fileID: 1508078885}
   - {fileID: 1460566837}
   - {fileID: 315816837}
+  - {fileID: 1061980117}
   - {fileID: 814411651}
   - {fileID: 980372068808591752}
   - {fileID: 1536667012}
   - {fileID: 4661522109721000101}
   - {fileID: 2127416117}
   - {fileID: 28409247}
-  - {fileID: 1061980117}

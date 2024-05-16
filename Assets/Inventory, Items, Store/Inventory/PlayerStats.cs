@@ -9,7 +9,7 @@ public class PlayerStats : MonoBehaviour
     public static PlayerStats Instance;
 
     public int Health;
-    public int Gold;
+    public int Gold; 
 
     public TMP_Text HealthText;
     public TMP_Text GoldText;
